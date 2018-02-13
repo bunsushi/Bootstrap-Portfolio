@@ -45,6 +45,7 @@ a {
 
 a:hover {
     color: #777;
+    text-decoration: none;
 }
 
 /* Section styles */
@@ -94,12 +95,25 @@ h3,
     border-bottom: 2px solid #cccccc;
 }
 
-li {
+.nav li {
     border-right: solid 1px #cccccc;
 }
 
-li:last-child {
+.nav li:last-child {
     border-right: none;
+}
+
+.navbar-nav {
+    margin-top: 30px;
+}
+
+.navbar .navbar-nav li a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #4aaaa5;
 }
 
 #logo {
@@ -121,4 +135,70 @@ li:last-child {
     margin-top: 10px;
     margin-right: 25px;
     border-radius: 50%;
+}
+
+/* Portfolio */
+
+.project {
+    position: relative;
+}
+
+.project img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.project-title {
+    position: relative;
+    bottom: 80px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    border-bottom: 0;
+}
+
+/* Contact Page */
+
+#contact-form ul {
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
 }
