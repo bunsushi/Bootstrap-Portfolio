@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html lang="en-us">
 
 <head>
     <title>About | Tegan Bunsu Ashby</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS to reset pre-defined browser styles -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -11,77 +12,94 @@
         crossorigin="anonymous">
     <!-- Custom CSS styles for Bootstrap-Portfolio -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
-    <!-- Bootstrap v.3.3.7 JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script> -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
-                    aria-expanded="false">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- <a id="logo" class="navbar-brand" href="#">Tegan Bunsu Ashby</a> -->
-                <a href="#"><h2 id="logo">Tegan Bunsu Ashby</h2></a>
+                <a href="index.html" id="logo" class="navbar-brand">Tegan Bunsu Ashby</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
     <!-- Begin Page content -->
-    <div class="container">
+    <div class="container page-content">
         <div class="row">
             <!-- Main content -->
             <div class="col-md-8 main-section">
-                <h2>About Me</h2>
-                <hr>
-                <img class="pull-left img-circle" id="avatar" src="assets/images/teganbunsuashby.jpg" alt="Tegan Bunsu Ashby" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu libero non nisi tincidunt suscipit.
-                    Ut vitae dapibus turpis. Vestibulum vitae eleifend ante, sit amet sodales tellus. In ultricies nunc purus,
-                    sit amet mollis odio porttitor quis. Suspendisse dolor ante, condimentum sit amet nibh et, gravida dictum
-                    orci. Integer quis lacus tellus. Aenean dapibus viverra ipsum, et lobortis lorem placerat eget. Curabitur
-                    nisi felis, efficitur eget vestibulum in, ullamcorper nec nulla. Vivamus luctus velit vitae condimentum
-                    dictum. Nunc velit velit, ultrices in volutpat vel, pharetra non lorem. Vestibulum ex sem, condimentum
-                    quis efficitur ac, laoreet id est. Proin varius maximus metus vitae volutpat. Mauris commodo erat sed
-                    odio vehicula, vitae hendrerit urna fermentum. Praesent nisl massa, eleifend eu metus in, mollis commodo
-                    justo.
+                <h1>About Me</h1>
+                <img src="assets/images/teganbunsuashby.jpg" class="auth-image thumbnail pull-left" alt="Tegan Bunsu Ashby">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor venenatis ante, rhoncus ultrices enim
+                    tempus eget. Donec sit amet sapien neque. Quisque quis leo tristique, iaculis eros eu, hendrerit elit.
+                    Vivamus ipsum leo, luctus id justo non, tempor auctor nibh. Proin semper vulputate ante ut vestibulum.
+                    In gravida velit elit, non iaculis nulla pretium ut. Sed suscipit odio ac sem tempor, id blandit tortor
+                    facilisis. Donec sodales nunc in fringilla dictum. Pellentesque non pellentesque justo, eu venenatis
+                    lacus. Vivamus condimentum at velit quis dictum. Aliquam ullamcorper fringilla tellus elementum dictum.
+                    Mauris dapibus lobortis eros et tempus. Integer bibendum sollicitudin augue, non elementum magna. Morbi
+                    eu nisi placerat, ornare magna non, imperdiet erat. Interdum et malesuada fames ac ante ipsum primis
+                    in faucibus. Sed suscipit ipsum nec vulputate tincidunt.
                 </p>
-                <p>Sed et tempus nunc. Nunc nec libero id tortor porta cursus. Fusce non lobortis mauris. Quisque vitae nulla
-                    id ipsum facilisis lacinia. Nulla aliquet aliquam tortor. In nec egestas urna, quis venenatis ligula.
-                    Nunc sed tincidunt lorem. Suspendisse ultrices malesuada odio, ut ultricies justo aliquet non.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae lectus vel erat cursus tristique. Fusce
+                    varius rhoncus tortor, nec facilisis urna cursus sit amet. Suspendisse mauris erat, mattis et sodales
+                    vitae, tincidunt quis tellus. Nullam ac orci id tellus scelerisque interdum. Quisque molestie enim ex,
+                    ac laoreet mauris interdum quis. Suspendisse mollis dolor quam, vitae accumsan lectus malesuada in. In
+                    egestas purus sit amet magna lacinia vestibulum. Sed volutpat eros vitae odio placerat, sed porttitor
+                    nunc efficitur. Duis quis mauris felis. Mauris ut eros vitae metus molestie egestas at vitae dui. Suspendisse
+                    nec ligula interdum, interdum sem et, accumsan nulla. Nunc imperdiet molestie hendrerit. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Integer nibh nisl, commodo id odio id, pretium congue
+                    neque.
+                </p>
             </div>
 
             <!-- Sidebar -->
-            <div class="col-md-3 col-md-offset-1 sidebar">
-                <h3>Let's Connect</h3>
-                <hr>
-                <!-- Change the colors of these icons in Illustrator to match theme -->
-                <a href="http://www.github.com/bunsushi" alt="Github" target="_blank">
-                    <img src="assets/images/github.png" />
-                </a>
-                <a href="http://www.linkedin.com" alt="LinkedIn" target="_blank">
-                    <img src="assets/images/linkedin.png" />
-                </a>
-                <a href="http://www.stackoverflow.com" alt="Stack Overflow" target="_blank">
-                    <img src="assets/images/stackoverflow.png" />
-                </a>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-10 sidebar">
+                        <h2>Let's Connect</h2>
+                        <a href="http://www.github.com/bunsushi" alt="Github" target="_blank">
+                            <img src="assets/images/github.png" />
+                        </a>
+                        <a href="http://www.linkedin.com" alt="LinkedIn" target="_blank">
+                            <img src="assets/images/linkedin.png" />
+                        </a>
+                        <a href="http://www.stackoverflow.com" alt="Stack Overflow" target="_blank">
+                            <img src="assets/images/stackoverflow.png" />
+                        </a>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -94,4 +112,3 @@
             <p>Copyright &copy; 2018 Tegan Bunsu Ashby</p>
         </div>
     </footer>
-</body>
